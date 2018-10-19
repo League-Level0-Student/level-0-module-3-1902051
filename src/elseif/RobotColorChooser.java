@@ -12,9 +12,8 @@ public class RobotColorChooser {
 		// 1. Create a new Robot
 		Robot bob = new Robot();
 		// 3. Ask the user what color they would like the robot to draw
-		JOptionPane.showMessageDialog(null, "WhAt CoLoR d0 Y0U wHaNt");
+		JOptionPane.showInputDialog(null, "WhAt CoLoR d0 Y0U wHaNt");
 		// . Use an if/else statement to set the pen color that the user requested
-if 
 		// 6. If the user doesn’t enter anything, choose a random color
 
 		// 7. Put a loop around your code so that you keep asking the user for more
@@ -25,34 +24,34 @@ if
 		// 2. Make the robot draw a shape (this will take more than one line of code)
 
 		bob.penDown();
-		bob.setSpeed(200);
+		bob.setSpeed(20000);
+		
+		
+		
+		for (int i = 1; i < 100; i++) {
+			
 		
 		bob.turn(90);
 		bob.move(90);
+		
+		bob.turn(100);
+		bob.move(100);
+		
+		bob.turn(110);
+		bob.move(110);
+		
+		bob.turn(120);
+		bob.move(120);
+		
+		
+		bob.turn(130);
+		bob.move(130);
+		
+		bob.turn(140);
+		bob.move(140);
+		
 
-		bob.turn(90);
-		bob.move(90);
-
-		bob.turn(90);
-		bob.move(90);
-
-		bob.turn(90);
-		bob.move(90);
-
-		bob.turn(180);
-		bob.move(180);
-
-		bob.turn(180);
-		bob.move(180);
-
-		bob.turn(180);
-		bob.move(180);
-
-		bob.turn(180);
-		bob.move(180);
-
-		bob.move(9000);
-
-	}
+		}
+			}
 
 }
