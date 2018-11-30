@@ -19,10 +19,29 @@ String bokv = JOptionPane.showInputDialog(null, "WhAt CoLoR d0 Y0U wHaNt");
 		// . Use an if/else statement to set the pen color that the user requested
 		
 if(bokv.equals("red")) {
-
+bob.setPenColor(250,0,0);
 }
 	
-		
+if(bokv.equals("orange")) {
+bob.setPenColor(255,165,0);
+}
+	
+if(bokv.equals("yellow")) {
+bob.setPenColor(255,255,0);
+}
+
+if(bokv.equals("green")) {
+bob.setPenColor(0,250,0);
+}
+	
+if(bokv.equals("blue")) {
+bob.setPenColor(0,0,255);
+}
+
+
+if(bokv.equals("purple")) {
+bob.setPenColor(128,0,128);
+}
 		// 6. If the user doesn’t enter anything, choose a random color 
 
 		// 7. Put a loop around your code so that you keep asking the user for more
